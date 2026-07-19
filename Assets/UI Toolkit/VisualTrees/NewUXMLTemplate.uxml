@@ -1,0 +1,18 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement style="flex-grow: 1;">
+        <ui:VisualElement name="Flag" style="flex-grow: 1; top: 0; right: 0; width: 320px; height: 200px; align-items: stretch; align-self: flex-end; flex-direction: column; justify-content: flex-start; max-height: 200px; min-height: 200px; min-width: 320px; max-width: 320px; background-image: url(&quot;project://database/Assets/Sprites/Flag_of_the_United_Kingdom_(3-5).svg.png?fileID=2800000&amp;guid=bea093f45383b614a879af914f2ad1c1&amp;type=3#Flag_of_the_United_Kingdom_(3-5).svg&quot;); background-color: rgba(0, 0, 0, 0); position: absolute;">
+            <Bindings>
+                <UnityEngine.Localization.LocalizedTexture property="style.backgroundImage" table="GUID:2bb12eb90b8e1de438ce0c6a45058e85" entry="Id(4525068288)"/>
+            </Bindings>
+        </ui:VisualElement>
+        <ui:Label text="Hello, world!" name="HelloLabel" style="align-items: stretch; justify-content: flex-start; align-self: center; top: 300px; font-size: 50px;">
+            <Bindings>
+                <UnityEngine.Localization.LocalizedString property="text" table="GUID:63ea99cc7c2bd314f82bb1521c5e641b" entry="Id(18034921472)"/>
+            </Bindings>
+        </ui:Label>
+        <ui:VisualElement name="VisualElement" style="flex-grow: 1; flex-direction: row; align-items: center; justify-content: center;">
+            <ui:Button text="" name="RussianButton" style="width: 320px; height: 200px; margin-right: 300px; background-color: rgb(255, 255, 255); background-image: url(&quot;project://database/Assets/Sprites/%D0%A4%D0%BB%D0%B0%D0%B3_%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B8_(1).jpg?fileID=2800000&amp;guid=fbf38020c934ab24e80bfb65fe85df39&amp;type=3#&#1060;&#1083;&#1072;&#1075;_&#1056;&#1086;&#1089;&#1089;&#1080;&#1080;_(1)&quot;);"/>
+            <ui:Button text="" name="EnglishButton" style="width: 320px; height: 200px; background-color: rgb(255, 255, 255); background-image: url(&quot;project://database/Assets/Sprites/Flag_of_the_United_Kingdom_(3-5).svg.png?fileID=2800000&amp;guid=bea093f45383b614a879af914f2ad1c1&amp;type=3#Flag_of_the_United_Kingdom_(3-5).svg&quot;);"/>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
